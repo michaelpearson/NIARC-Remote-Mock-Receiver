@@ -1,16 +1,10 @@
-import java.awt.BorderLayout;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-import javax.swing.JFrame;
-import javax.swing.JTextPane;
-
-
 public class MockReceiver {
 	private ServerSocket socket;
-	private JTextPane textPanel;
 	private static final int DATA_LENGTH = 6;
 	public static void main(String[] args) {
 		new MockReceiver();
